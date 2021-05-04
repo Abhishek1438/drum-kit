@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+html,body,.fullHeight {
+    min-height: 100%  !important;
+    height: 100%;
+}
+
+body {
+    background: no-repeat url("/images/download.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 16px;
+}
+
+kbd {
+    display: block;
+    font-size: 40px;
+}
+
+.keys {
+    position: relative;
+    margin: auto;
+    top: 50%;
+}
+
+.key {
+    float:left;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    margin: 1rem;
+    font-size: 1rem;
+    width: 100px;
+    padding: 1rem .5rem;
+    background: rgba(0,0,0,0.4) ;
+    border: solid black 4px;
+    text-shadow: 0 0 5px black;
+    transition: all 0.04s;
+}
+
+.playing {
+    transform: scale(1,1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600; 
+}
+
+.sound {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffc600;
+}
