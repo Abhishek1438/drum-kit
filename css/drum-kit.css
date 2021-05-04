@@ -7,7 +7,7 @@ html,body,.fullHeight {
 }
 
 body {
-    background: no-repeat url("/images/download.jpg");
+    background: no-repeat url("../images/download.jpg");
     background-position: center;
     background-size: cover;
     font-size: 16px;
